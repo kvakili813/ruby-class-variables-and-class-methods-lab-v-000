@@ -52,6 +52,7 @@ attr_accessor :name, :artist, :genre
         artist_count[person] = 1
       end
     end
+    artist_count
   end
 
 end
